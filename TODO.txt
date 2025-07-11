@@ -1,0 +1,20 @@
+Things to configure:
+    - dunst
+    - hypr
+    - pusle
+    - waybar
+    - wallpaper
+    - wlogout
+    - wlogin
+
+things to fix:
+    - Microphone
+    - Speaker
+
+things to add:
+    - cliphist
+    - polkit or lxsession
+    - nm-applet
+    - blueman 
+    - pavucontrol
+    - udiskie, tlp, auto-cpufreq, powertop
