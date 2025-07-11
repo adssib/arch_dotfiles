@@ -138,7 +138,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Fix backspace issues in some terminals
-stty erase ^H
+# stty erase ^H
 
 # Enable autocd (just type folder name to cd into it)
 setopt AUTO_CD
