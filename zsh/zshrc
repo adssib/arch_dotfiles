@@ -151,3 +151,6 @@ setopt NO_BEEP
 
 # Show time taken by long commands
 REPORTTIME=2
+
+# Loading Starship command
+eval "$(starship init zsh)"
