@@ -24,6 +24,7 @@
     "modules-left": [
         "custom/appmenuicon",
         "hyprland/workspaces",
+        "tray"
     ],
 
     // Modules Center
@@ -41,8 +42,8 @@
         "group/hardware",
         "custom/cliphist",
         "custom/exit",
-        "clock",
-        "tray"
+        "clock"
+        // "tray"
         // "network"
         // "user",
     ]

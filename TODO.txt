@@ -6,7 +6,8 @@ Things to configure:
     - wallpaper
     - wlogout
     - wlogin
-
+    - showing the GPU things under the hardware part of the waybar
+    - adding a battery notify when the percantege is below a specific %
 things to fix:
     - Microphone
     - Speaker

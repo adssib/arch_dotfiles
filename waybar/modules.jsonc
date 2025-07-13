@@ -40,12 +40,12 @@
 
   // Keyboard layout
   "hyprland/language": {
-    "format": "󰌌   {short} {variant}"
+    "format": "󰌌  {short} {variant}"
   },
 
   // Updates Count
   "custom/updates": {
-    "format": "    {}",
+    "format": "  {}",
     "tooltip-format": "{}",
     "escape": true,
     "return-type": "json",
@@ -104,7 +104,7 @@
     "format-alt": "{icon}    {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format-icons": [" ", " ", " ", " ", " "],
   },
 
   // Group Hardware
@@ -115,7 +115,7 @@
       "children-class": "not-memory",
       "transition-left-to-right": false
     },
-    "modules": ["custom/system", "disk", "cpu", "memory"]
+    "modules": ["custom/system", "disk", "cpu", "memory", "temperature"]
   },
 
   // System
@@ -126,18 +126,28 @@
 
   // CPU
   "cpu": {
-    "format": "󰻠  {usage}%"
+    "exec": "sensors | awk '/^Package id 0:/ {print int($4)}'",
+    "format": "󰻠 {usage}% ",
+    "tooltip": true
   },
 
   // Memory
   "memory": {
-    "format": "󰍛  {}%"
+    "format": "󰍛 {}%"
   },
 
   // Harddisc space used
   "disk": {
-    "interval": 30,
-    "format": "  {percentage_used}%"
+    "format": "  {percentage_used}%",
+    "path": "/home"
+  },
+
+  // CPU Temperature
+  "temperature": {
+    "format": " {}°C",
+    "interval": 5,
+    "tooltip": true,
+    "tooltip-format": "CPU Temperature: {}°C"
   },
 
   // Cliphist
