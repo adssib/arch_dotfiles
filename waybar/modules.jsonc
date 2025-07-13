@@ -12,7 +12,8 @@
   // Rofi Application Launcher
   "custom/appmenuicon": {
     "format": "",
-    "on-click": "rofi -show drun -replace -theme ~/.config/rofi/launchers/type-1/style-6.rasi",
+    // THIS LINE IS NOT WORKING TO FIX 
+    "on-click": "wofi --show drun -replace -theme ~/.config/rofi/launchers/type-1/style-6.rasi",
     "tooltip": false
   },
 
@@ -71,15 +72,34 @@
     "on-click": "pavucontrol"
   },
 
+  "backlight": {
+      "device": "intel_backlight",
+      "format": "{icon} {percent}%",
+      "on-scroll-up": "brightnessctl s '+10%'",
+      "on-scroll-down": "brightnessctl s '10%-'",
+      "on-click": "((( $(brightnessctl g) == 100 )) && brightnessctl s '0') || (brightnessctl s '+10%')",
+      "format-icons": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+      ]
+  },
+
   // Battery
   "battery": {
     "states": {
-      // "good": 95,
+      "good": 95,
       "warning": 30,
       "critical": 15
     },
     "format": "{icon}   {capacity}%",
-    "format-charging": "  {capacity}%",
+    "format-charging": "󰂄  {capacity}%",    
     "format-plugged": "  {capacity}%",
     "format-alt": "{icon}    {time}",
     // "format-good": "", // An empty format will hide the module
@@ -100,7 +120,7 @@
 
   // System
   "custom/system": {
-    "format": "",
+    "format": "",
     "tooltip": false
   },
 

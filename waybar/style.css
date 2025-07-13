@@ -14,8 +14,7 @@ Waybar Config File by Arfan Zubi
 @import url("./mocha.css");
 
 * {
-    font-family: "JetBrainsMono Nerd Font";
-    font-weight: bold;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", "Symbols Nerd Font Mono", sans-serif;    font-weight: bold;
     font-size: 15px;
     min-height: 0;
 }
@@ -112,3 +111,14 @@ window#waybar.empty #window {
     color: @red;
     border-radius: 0 1.5rem 1.5rem 0;
 }
+
+#custom-cliphist,
+#custom-exit,
+#custom-system,
+#cpu,
+#memory,
+#disk {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

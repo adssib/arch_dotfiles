@@ -35,12 +35,15 @@
     "modules-right": [
         "custom/updates",
         "pulseaudio",
+        "backlight",
         "battery",
         "hyprland/language",
         "group/hardware",
         "custom/cliphist",
         "custom/exit",
         "clock",
-        "tray",
+        "tray"
+        // "network"
+        // "user",
     ]
 }
