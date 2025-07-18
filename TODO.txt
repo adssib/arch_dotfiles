@@ -8,9 +8,12 @@ Things to configure:
     - wlogin
     - showing the GPU things under the hardware part of the waybar
     - adding a battery notify when the percantege is below a specific %
+    - when using the terminal and hitting CTRL + SHIFT + ARROW it should Hilight the word then to copy it 
+    - Using 2 fingers on the touchpad it should switch the window currently at and uing 3 should switch the whole screen (from lid to Screen or vise versa)
+
 things to fix:
-    - Microphone
-    - Speaker
+    - Microphone (DONE)
+    - Speaker    (DONE)
 
 things to add:
     - cliphist
