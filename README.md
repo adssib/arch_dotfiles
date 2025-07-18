@@ -6,7 +6,7 @@ A list of things I’m configuring, fixing, and planning to add.
 - pusle  
 - waybar  
 - wallpaper  
-- wlogout  
+- ~~wlogout~~  
 - wlogin  
 - Showing the GPU info under the hardware section of Waybar  
 - Adding a battery notification when the percentage is below a specific %  
