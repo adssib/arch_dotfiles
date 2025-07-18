@@ -19,23 +19,23 @@
     },
     {
       "type": "os",
-      "key": "├󰣇",
+      "key": "├󰣇 GNU/Arch-linux",
       "keyColor": "yellow",
       "format": "{6}{?6} {?}{10}{?10} {?}{8}{?8} {?}{11}"
     },
     {
       "type": "kernel",
-      "key": "├",
+      "key": "├ Kernel",
       "keyColor": "yellow"
     },
     {
       "type": "packages",
-      "key": "├󰏖",
-      "keyColor": "yellow"
+      "key": "├󰏖 Packages",
+      "keyColor": "yellow",
     },
     {
       "type": "shell",
-      "key": "└",
+      "key": "└ Shell",
       "keyColor": "yellow"
     },
     "break",
@@ -47,27 +47,27 @@
     },
     {
       "type": "lm",
-      "key": "├󰧨",
+      "key": "├󰧨 Theme",
       "keyColor": "blue"
     },
     {
       "type": "theme",
-      "key": "├󰉼",
+      "key": "├󰉼 GTK Theme",
       "keyColor": "blue"
     },
     {
       "type": "icons",
-      "key": "├󰀻",
+      "key": "├󰀻 Icons",
       "keyColor": "blue"
     },
     {
       "type": "cursor",
-      "key": "├󰇀",
+      "key": "├󰇀 Cursor",
       "keyColor": "blue"
     },
     {
       "type": "terminal",
-      "key": "└",
+      "key": "└ Terminal",
       "keyColor": "blue"
     },
 
@@ -79,37 +79,38 @@
     },
     {
       "type": "cpu",
-      "key": "├󰻠",
+      "key": "├󰻠 CPU",
       "keyColor": "green"
     },
     {
       "type": "gpu",
-      "key": "├󰍛",
+      "key": "├󰍛 GPU",
       "keyColor": "green"
     },
     {
       "type": "disk",
-      "key": "├",
+      "key": "├ Disk",
       "keyColor": "green"
     },
     {
       "type": "memory",
-      "key": "├󰑭",
+      "key": "├󰑭 Memory",
       "keyColor": "green"
     },
+
     {
       "type": "swap",
-      "key": "├󰓡",
+      "key": "├󰓡 Swap",
       "keyColor": "green"
     },
     {
       "type": "uptime",
-      "key": "├󰅐",
+      "key": "├󰅐 Uptime",
       "keyColor": "green"
     },
     {
       "type": "display",
-      "key": "└󰍹",
+      "key": "└󰍹 Display",
       "keyColor": "green"
     },
 
