@@ -17,8 +17,8 @@
   },
   "base_keymap": "VSCode",
   "theme": "Ayu Dark",
-  "ui_font_size": 20,
-  "buffer_font_size": 20,
+  "ui_font_size": 24,
+  "buffer_font_size": 18,
   // Finder model width
   "file_finder": {
     "modal_width": "medium"
@@ -46,6 +46,11 @@
   "indent_guides": {
     "enabled": true,
     "coloring": "indent_aware"
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 500
+    }
   },
   // NOTE: Zen mode, refer https://github.com/zed-industries/zed/issues/4382 when it's resolved
   "centered_layout": {
