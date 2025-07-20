@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 alias ll='ls -lah'
 alias grep='rg'
 alias cls='clear'
-alias ex='exit'
+alias ext='exit'
 alias src='source ~/.zshrc'
 
 alias gs='git status'

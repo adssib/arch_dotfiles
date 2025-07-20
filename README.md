@@ -4,8 +4,8 @@ A list of things I’m configuring, fixing, and planning to add.
 - dunst  
 - hypr  
 - pusle  
-- waybar  
-- wallpaper  
+- ~~waybar~~  
+- ~~wallpaper~~  
 - ~~wlogout~~  
 - wlogin  
 - Showing the GPU info under the hardware section of Waybar  
@@ -22,7 +22,7 @@ A list of things I’m configuring, fixing, and planning to add.
 ### Things to add
 - cliphist  
 - polkit or lxsession  
-- nm-applet  
-- blueman  
+- ~~nm-applet~~  
+- ~~blueman~~  
 - pavucontrol  
 - udiskie, tlp, auto-cpufreq, powertop  
