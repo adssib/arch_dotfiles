@@ -40,7 +40,7 @@
 
   // Keyboard layout
   "hyprland/language": {
-    "format": "󰌌  {short} {variant}"
+    "format": "󰌌 {short} {variant}"
   },
 
   // Updates Count
@@ -56,13 +56,12 @@
 
   // Pulseaudio
   "pulseaudio": {
-    "format": "{icon}    {volume}%",
-    "format-bluetooth": "{icon}    {volume}%",
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon}  {volume}%",
     "format-muted": " ",
     "format-icons": {
       "headphones": "",
-      "handsfree": "",
-      "headset": "",
+      "headset": "",
       "phone": "",
       "portable": "",
       "car": "",
@@ -98,13 +97,13 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}   {capacity}%",
-    "format-charging": "󰂄  {capacity}%",    
-    "format-plugged": "  {capacity}%",
-    "format-alt": "{icon}    {time}",
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",    
+    "format-plugged": " {capacity}%",
+    "format-alt": "{icon} {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [" ", " ", " ", " ", " "],
+    "format-icons": [" ", " ", " ", " ", " "]
   },
 
   // Group Hardware
