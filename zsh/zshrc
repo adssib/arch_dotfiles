@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 alias ll='ls -lah'
 alias grep='rg'
 alias cls='clear'
-alias ext='exit'
+alias ex='exit'
 alias src='source ~/.zshrc'
 
 alias gs='git status'
@@ -162,3 +162,4 @@ REPORTTIME=2
 
 # Loading Starship command
 eval "$(starship init zsh)"
+export PATH=$HOME/.local/bin:$PATH
