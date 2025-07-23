@@ -1,5 +1,8 @@
 A list of things I’m configuring, fixing, and planning to add. 
 
+## Intro to Ricing
+[very good article with examples](https://namishh.me/blog/ricing)
+
 ### Things to configure
 - dunst  
 - hypr  
