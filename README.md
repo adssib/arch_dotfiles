@@ -1,7 +1,7 @@
 A list of things I’m configuring, fixing, and planning to add. 
 
-## Intro to Ricing
-[very good article with examples](https://namishh.me/blog/ricing)
+### Intro to Ricing
+very good [article](https://namishh.me/blog/ricing) about ricing + examples (tons of inspiration)
 
 ### Things to configure
 - dunst  
