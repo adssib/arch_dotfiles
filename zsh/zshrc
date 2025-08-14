@@ -126,6 +126,17 @@ alias gcl='git clone'
 alias gc='git commit'
 alias ga='git add .'
 
+# Change directory aliases
+alias home='cd ~'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# cd into the old directory
+alias od='cd "$OLDPWD"'
+
 # History
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
