@@ -11,10 +11,9 @@
 {
   // Rofi Application Launcher
   "custom/appmenuicon": {
-    "format": "",
-    // THIS LINE IS NOT WORKING TO FIX 
-    "on-click": "wofi --show drun -replace -theme ~/.config/rofi/launchers/type-1/style-6.rasi",
-    "tooltip": false
+    "format": " ",
+    "on-click": "wofi --show drun",
+    "tooltip": false,
   },
 
   // Workspaces
@@ -26,21 +25,21 @@
     "format-icons": {
       "urgent": "",
       "active": "",
-      "default": ""
+      "default": "",
     },
     "persistent-workspaces": {
-      "*": 5
-    }
+      "*": 5,
+    },
   },
 
   // Hyprland Window
   "hyprland/window": {
-    "separate-outputs": true
+    "separate-outputs": true,
   },
 
   // Keyboard layout
   "hyprland/language": {
-    "format": "󰌌 {short} {variant}"
+    "format": "󰌌 {short} {variant}",
   },
 
   // Updates Count
@@ -51,7 +50,7 @@
     "return-type": "json",
     "exec": "~/.config/scripts/updates.sh",
     "restart-interval": 60,
-    "tooltip": false
+    "tooltip": false,
   },
 
   // Pulseaudio
@@ -65,29 +64,19 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", ""]
+      "default": ["", ""],
     },
     "scroll-step": 1,
-    "on-click": "pavucontrol"
+    "on-click": "pavucontrol",
   },
 
   "backlight": {
-      "device": "intel_backlight",
-      "format": "{icon} {percent}%",
-      "on-scroll-up": "brightnessctl s '+10%'",
-      "on-scroll-down": "brightnessctl s '10%-'",
-      "on-click": "((( $(brightnessctl g) == 100 )) && brightnessctl s '0') || (brightnessctl s '+10%')",
-      "format-icons": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
-      ]
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "on-scroll-up": "brightnessctl s '+10%'",
+    "on-scroll-down": "brightnessctl s '10%-'",
+    "on-click": "((( $(brightnessctl g) == 100 )) && brightnessctl s '0') || (brightnessctl s '+10%')",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
   },
 
   // Battery
@@ -95,15 +84,15 @@
     "states": {
       "good": 95,
       "warning": 30,
-      "critical": 15
+      "critical": 15,
     },
     "format": "{icon} {capacity}%",
-    "format-charging": "󰂄 {capacity}%",    
+    "format-charging": "󰂄 {capacity}%",
     "format-plugged": " {capacity}%",
     "format-alt": "{icon} {time}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [" ", " ", " ", " ", " "]
+    "format-icons": [" ", " ", " ", " ", " "],
   },
 
   // Group Hardware
@@ -112,33 +101,33 @@
     "drawer": {
       "transition-duration": 300,
       "children-class": "not-memory",
-      "transition-left-to-right": false
+      "transition-left-to-right": false,
     },
-    "modules": ["custom/system", "disk", "cpu", "memory", "temperature"]
+    "modules": ["custom/system", "disk", "cpu", "memory", "temperature"],
   },
 
   // System
   "custom/system": {
     "format": "",
-    "tooltip": false
+    "tooltip": false,
   },
 
   // CPU
   "cpu": {
     "exec": "sensors | awk '/^Package id 0:/ {print int($4)}'",
     "format": "󰻠 {usage}% ",
-    "tooltip": true
+    "tooltip": true,
   },
 
   // Memory
   "memory": {
-    "format": "󰍛 {}%"
+    "format": "󰍛 {}%",
   },
 
   // Harddisc space used
   "disk": {
     "format": "  {percentage_used}%",
-    "path": "/home"
+    "path": "/home",
   },
 
   // CPU Temperature
@@ -146,7 +135,7 @@
     "format": " {}°C",
     "interval": 5,
     "tooltip": true,
-    "tooltip-format": "CPU Temperature: {}°C"
+    "tooltip-format": "CPU Temperature: {}°C",
   },
 
   // Cliphist
@@ -154,27 +143,27 @@
     "format": "",
     "on-click": "~/.config/scripts/cliphist.sh",
     "on-click-right": "cliphist wipe",
-    "tooltip-format": "Clipboard Manager"
+    "tooltip-format": "Clipboard Manager",
   },
 
   // Power Menu
   "custom/exit": {
     "format": "",
     "on-click": "wlogout",
-    "tooltip": false
+    "tooltip": false,
   },
 
   // Clock
   "clock": {
     "format": "{:%a %Od.%Om.%Y - %H:%M}",
     // "timezone": "America/New_York",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
 
   // System tray
   "tray": {
     "icon-size": 21,
-    "spacing": 10
+    "spacing": 10,
   },
 
   // Network
@@ -188,13 +177,13 @@
     "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
-    "on-click": "~/.config/.settings/networkmanager.sh"
+    "on-click": "~/.config/.settings/networkmanager.sh",
   },
 
   // Other
   "user": {
     "format": "{user}",
     "interval": 60,
-    "icon": false
-  }
+    "icon": false,
+  },
 }
