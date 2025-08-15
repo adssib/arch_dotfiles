@@ -114,7 +114,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-alias ll='ls -lah'
+alias lsd='lsd --oneline'
+alias ll='lsd -lah'
 alias grep='rg'
 alias cls='clear'
 alias ex='exit'
@@ -172,5 +173,11 @@ setopt NO_BEEP
 REPORTTIME=2
 
 # Loading Starship command
+# Add local bin to PATH first
+export PATH="$HOME/.local/bin:$PATH"
+
+# Point Starship to your custom config
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+
+# Initialize Starship
 eval "$(starship init zsh)"
-export PATH=$HOME/.local/bin:$PATH
