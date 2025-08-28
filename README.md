@@ -1,3 +1,8 @@
+Most of my configurations are inspired by:
+  - (Mattthew)[https://github.com/SeniorMatt/Mattthew-s-Dotfiles]
+  - (Hyde Project)[https://github.com/HyDE-Project/HyDE]
+  - (Arfan Zubi)[https://github.com/3rfaan/dotfiles-hyprland] : even though his configurations are very monolithtic It was my starting point
+
 A list of things I’m configuring, fixing, and planning to add.
 
 ### Intro to Ricing
