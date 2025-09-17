@@ -31,7 +31,7 @@
     "enable_vim_sneak": true
   },
   // use relative line numbers
-  "relative_line_numbers": true,
+  "relative_line_numbers": false,
   "tab_bar": {
     "show": true
   },
