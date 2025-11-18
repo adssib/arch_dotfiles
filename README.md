@@ -1,37 +1,39 @@
-Most of my configurations are inspired by:
-  - (Mattthew)[https://github.com/SeniorMatt/Mattthew-s-Dotfiles]
-  - (Hyde Project)[https://github.com/HyDE-Project/HyDE]
-  - (Arfan Zubi)[https://github.com/3rfaan/dotfiles-hyprland] : even though his configurations are very monolithtic It was my starting point
+# My Superior Dotfiles
 
-A list of things I’m configuring, fixing, and planning to add.
+Custom Arch Linux + Hyprland dotfiles.
 
-### Intro to Ricing
-very good [article](https://namishh.me/blog/ricing) about ricing + examples (tons of inspiration)
+## System Overview
 
-### Things to configure
-- dunst
-- ~~hypr~~
-- ~~pusle~~
-- ~~waybar~~
-- ~~wallpaper~~
-- ~~wlogout~~
-- ~~wlogin~~
-- Showing the GPU info under the hardware section of Waybar
-- ~~Adding a battery notification when the percentage is below a specific %~~
-- When using the terminal and hitting `CTRL + SHIFT + ARROW`, it should highlight the word to copy it
-- ~~Using 2 fingers on the touchpad should switch the current window, and using 3 fingers should switch the whole screen (from lid to screen or vice versa)~~
-- when using another screen I want to have the ability to change the directions of the screens and such
-- add the ability to get the Maghrib Time from an api and then doing it from there for gammastep
-- ~~smth similar to how firefox circal throught the tabs using 'CTRL + TABS'~~
+-   Distro: [Arch Linux](https://archlinux.org)
+-   Window Manager: [Hyprland](https://hyprland.org)
+-   Launcher: [Wofi](https://git.sr.ht/~scoopta/wofi)
+-   Network Menu:
+    [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
+-   Bar: [Waybar](https://github.com/Alexays/Waybar)
+-   Notifications: [Dunst](https://github.com/dunst-project/dunst)
+-   Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
+-   Shell: [zsh](https://www.zsh.org/)
+-   System Fetch: [Neofetch](https://github.com/dylanaraps/neofetch)
 
-### Things to fix
-- ~~Microphone~~
-- ~~Speaker~~
+## Screenshots
 
-### Things to add
-- cliphist
-- polkit or lxsession
-- ~~nm-applet~~
-- ~~blueman~~
-- ~~pavucontrol~~
-- udiskie, tlp, auto-cpufreq, powertop
+(Add screenshots here)
+
+## Directory Structure
+
+This repository contains configuration for various applications and
+components in a Wayland-based desktop environment.
+
+## Inspiration
+
+-   https://github.com/SeniorMatt/Mattthew-s-Dotfiles
+-   https://github.com/HyDE-Project/HyDE
+-   https://github.com/3rfaan/dotfiles-hyprland
+
+## Ricing Reference
+
+A helpful article on ricing: https://namishh.me/blog/ricing
+
+## To-Do
+
+The to-do list has been moved to a separate file: TODO.md.
