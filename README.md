@@ -17,7 +17,7 @@ Custom Arch Linux + Hyprland dotfiles.
 
 ## Screenshots
 
-(Add screenshots here)
+<img width="1319" height="833" alt="image" src="https://github.com/user-attachments/assets/328427a4-1169-4838-8017-fe29e41c5205" />
 
 ## Directory Structure
 
