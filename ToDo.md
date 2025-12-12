@@ -28,3 +28,4 @@
 - tlp
 - auto-cpufreq
 - cava Visualizer
+- Script to automate Caches & disk to get space that is not used properly
