@@ -1,3 +1,5 @@
+> My Previous Laptop is Dead, Switching to Ubuntu on the New laptop...
+
 # My Superior Dotfiles
 
 Custom Arch Linux + Hyprland dotfiles.
